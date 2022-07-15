@@ -1,3 +1,17 @@
+Installation Instructions:
+Run cp .env.example .env file to copy example file to .env
+Then edit your .env file with DB credentials 
+Run composer install command
+Run php artisan migrate --seed command.
+Run php artisan key:generate command.
+
+run php artisan serve
+visit your localhost:8080
+
+Username: admin@admin.com
+Password: password
+
+
 Normalised Entities (PK - Primary Key, FK -Foreign Key)
 
 Donor	
